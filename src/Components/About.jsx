@@ -10,21 +10,21 @@ import React from "react";
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/mosaic1.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "Abstract background with different color pattern";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "Currently doing my bachelor's from Riphah university. Throughout my education, I have demonstrated a high level of motivation, work ethic, and teamwork to achieve my predicted grades.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "Passionate about data, with a particular interest in data engineering, SQL, and cloud data. I constantly seek out cutting-edge technologies and techniques to enhance my skills and knowledge.";
 
 const About = () => {
   return (
